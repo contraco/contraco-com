@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting to About | contraco</title>
+    
+    <!-- Redirect to contraco.net equivalent -->
+    <meta http-equiv="refresh" content="0;url=https://contraco.net/contraco_about.html">
+    <link rel="canonical" href="https://contraco.net/contraco_about.html">
+    
+    <!-- Robots - noindex this redirect page -->
+    <meta name="robots" content="noindex, follow">
+    
+    <!-- hreflang pointing to correct destinations -->
+    <link rel="alternate" href="https://contraco.net/contraco_about.html" hreflang="x-default" />
+    <link rel="alternate" hreflang="en" href="https://contraco.net/contraco_about.html" />
+    <link rel="alternate" hreflang="de" href="https://contraco.de/about.html" />
+    <link rel="alternate" hreflang="ru" href="https://contraco.ru/about.html" />
+    <link rel="alternate" hreflang="ko" href="https://contraco.co.kr/about.html" />
+    
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: #F8F6F3;
+            color: #2C2C2C;
+        }
+        .redirect-message {
+            text-align: center;
+            padding: 40px;
+        }
+        .redirect-message h1 {
+            color: #C00000;
+            margin-bottom: 16px;
+        }
+        .redirect-message a {
+            color: #C00000;
+            text-decoration: none;
+        }
+        .redirect-message a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="redirect-message">
+        <h1>Redirecting...</h1>
+        <p>Taking you to the about page.</p>
+        <p>If not redirected automatically, <a href="https://contraco.net/contraco_about.html">click here</a>.</p>
+    </div>
+    
+    <script>
+        window.location.href = "https://contraco.net/contraco_about.html";
+    </script>
+</body>
+</html>
