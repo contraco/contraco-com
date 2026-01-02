@@ -1,5 +1,5 @@
 # Robots.txt for contraco.com
-# Generated on August 22, 2025
+# Generated on January 2, 2026
 
 # Allow all crawlers to access all content
 User-agent: *
