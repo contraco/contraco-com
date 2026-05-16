@@ -1,0 +1,24 @@
+# contraco
+
+> Global hub for contraco digital transformation consulting. Founded 1998 by Frank Meltke. Regional sites: contraco.net (EN), contraco.de (DE), contraco.ru (RU), contraco.co.kr (KO).
+
+## About
+
+contraco is a premium transformation consultancy combining strategic clarity, technological intelligence, and psychological depth. 28 years of experience across Fortune 500 companies on four continents.
+
+## Regional Sites
+
+- [contraco.net](https://contraco.net/) — Global English site, primary domain
+- [contraco.de](https://contraco.de/) — Deutschland, Deutsch
+- [contraco.ru](https://contraco.ru/) — Россия, Русский
+- [contraco.co.kr](https://contraco.co.kr/) — 대한민국, 한국어
+
+## Founder
+
+Frank Meltke. German inventor, entrepreneur, digital transformation expert. Patent DE10313420A1 (2003). Guest lecturer Kyung Hee University Seoul. BBC Global Minds Insight Panelist. Wikidata: Q139680598.
+
+## Identifiers
+
+- Wikidata (contraco): Q139681815
+- Frank Meltke Wikidata: Q139680598
+- LinkedIn: https://www.linkedin.com/company/contraco
