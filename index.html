@@ -65,96 +65,78 @@
     <meta property="og:title" content="contraco - Global Transformation Consulting">
     <meta property="og:description" content="contraco — 28 years of digital transformation consulting across 4 continents. Select your market and language: Global (EN), Deutschland (DE), Россия (RU), 대한민국 (KO).">
     
-    <!-- Structured Data -->
+    <!-- Unified Entity Graph: contraco.com -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "contraco",
-        "alternateName": "contraco USA",
-        "url": "https://contraco.com/",
-        "image": "https://contraco.com/Logo_rectangle.svg",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://contraco.com/Logo_rectangle.svg",
-            "width": 400,
-            "height": 100
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebSite",
+            "@id": "https://contraco.com/#website",
+            "url": "https://contraco.com/",
+            "name": "contraco",
+            "description": "contraco global hub — Digital Transformation Consulting across Americas, Europe and Asia"
         },
-        "description": "contraco is a global digital transformation consulting firm with regional depth across Americas, Europe and Asia. 28 years of experience across Fortune 500 companies.",
-        "email": "transformation@contraco.net",
-        "telephone": "+13129400326",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "1209 10th Ln.",
-            "addressLocality": "Ava",
-            "addressRegion": "MO",
-            "postalCode": "65608",
-            "addressCountry": "US"
-        },
-        "foundingDate": "1998",
-        "founder": {
-            "@type": "Person",
-            "name": "Frank Meltke",
-            "jobTitle": "Founder & CEO",
+        {
+            "@type": "Organization",
+            "@id": "https://contraco.net/#organization",
+            "name": "contraco",
+            "alternateName": "contraco USA",
+            "url": "https://contraco.net/",
+            "image": "https://contraco.com/Logo_rectangle.svg",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://contraco.com/Logo_rectangle.svg",
+                "width": 400,
+                "height": 100
+            },
+            "description": "contraco is a global digital transformation consulting firm with regional depth across Americas, Europe and Asia. 28 years of experience across Fortune 500 companies.",
+            "email": "transformation@contraco.net",
+            "telephone": "+13129400326",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "1209 10th Ln.",
+                "addressLocality": "Ava",
+                "addressRegion": "MO",
+                "postalCode": "65608",
+                "addressCountry": "US"
+            },
+            "foundingDate": "1998",
+            "founder": { "@id": "https://meltke.com/#person" },
+            "areaServed": "Global",
+            "brand": {
+                "@type": "Brand",
+                "name": "contraco",
+                "url": "https://contraco.com/brand.html"
+            },
             "sameAs": [
-                "https://www.wikidata.org/wiki/Q139680598",
-                "https://orcid.org/0009-0006-9001-0078",
-                "https://scholar.google.com/citations?user=Md3quCcAAAAJ",
-                "https://www.linkedin.com/in/frankmeltke",
-                "https://www.google.com/search?kgmid=/g/11rqtzq613"
-            ],
-            "knowsAbout": [
-                "Digital Transformation",
-                "AI Adoption and Change Management",
-                "Organisational Design for the AI Era",
-                "Information Retrieval",
-                "Search Systems",
-                "The Resonance Method",
-                "Pricing Psychology",
-                "Behavioural Economics",
-                "Cross-Cultural Transformation",
-                "Enterprise AI Strategy"
-            ],
-            "hasCredential": [
-                {
-                    "@type": "EducationalOccupationalCredential",
-                    "credentialCategory": "degree",
-                    "name": "Diplom",
-                    "educationalLevel": "Graduate",
-                    "recognizedBy": {
-                        "@type": "EducationalOrganization",
-                        "name": "Fachhochschule des Bundes für öffentliche Verwaltung"
-                    }
-                }
+                "https://www.wikidata.org/wiki/Q139681815",
+                "https://www.linkedin.com/company/contraco",
+                "https://contraco.net",
+                "https://contraco.de",
+                "https://contraco.ru",
+                "https://contraco.co.kr"
             ]
         },
-        "areaServed": "Global",
-        "brand": {
-            "@type": "Brand",
-            "name": "contraco",
-            "url": "https://contraco.com/brand.html"
-        },
-        "sameAs": [
-            "https://www.linkedin.com/company/contraco",
-            "https://contraco.net",
-            "https://contraco.de",
-            "https://contraco.ru",
-            "https://contraco.co.kr"
-        ],
-        "knowsAbout": [
-            "Digital Transformation Consulting",
-            "Enterprise AI Strategy",
-            "AI Adoption and Change Management",
-            "Organizational Design for the AI Era",
-            "Pricing Psychology and Behavioural Economics",
-            "Digital Transformation ROI Measurement",
-            "Vendor Selection and Technology Procurement",
-            "Cross-Cultural Transformation in DACH, CIS and APAC Markets",
-            "The Psychology of AI Resistance",
-            "Scaling AI from Pilot to Enterprise"
-        ]
-    }
-    </script>
+        {
+            "@type": "Person",
+            "@id": "https://meltke.com/#person",
+            "name": "Frank Meltke",
+            "url": "https://meltke.com",
+            "jobTitle": "Founder & CEO",
+            "worksFor": { "@id": "https://contraco.net/#organization" },
+            "sameAs": [
+                "https://www.wikidata.org/wiki/Q139680598",
+                "https://www.linkedin.com/in/frankmeltke",
+                "https://orcid.org/0009-0006-9001-0078",
+                "https://scholar.google.com/citations?user=Md3quCcAAAAJ",
+                "https://www.google.com/search?kgmid=/g/11rqtzq613",
+                "https://www.researchgate.net/profile/Frank-Meltke"
+            ]
+        }
+    ]
+}
+</script>
     
     <style>
         /* CSS Variables */
@@ -435,29 +417,6 @@
             }
         }
     </style>
-<!-- Person Entity: Frank Meltke -->
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Frank Meltke",
-    "url": "https://meltke.com",
-    "jobTitle": "Founder & CEO",
-    "worksFor": {
-        "@type": "Organization",
-        "name": "contraco",
-        "url": "https://contraco.com"
-    },
-    "sameAs": [
-        "https://www.wikidata.org/wiki/Q139680598",
-        "https://www.linkedin.com/in/frankmeltke",
-        "https://orcid.org/0009-0006-9001-0078",
-        "https://scholar.google.com/citations?user=Md3quCcAAAAJ",
-        "https://www.google.com/search?kgmid=/g/11rqtzq613",
-        "https://www.researchgate.net/profile/Frank-Meltke"
-    ]
-}
-</script>
 </head>
 <body>
     <!-- FIXED HEADER -->
