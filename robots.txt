@@ -4,19 +4,6 @@
 # Allow all crawlers to access all content
 User-agent: *
 Allow: /
-
-
-User-agent: Googlebot
-Disallow: /yandex_3ab46e6433c1642a.html
-
-User-agent: Yandex
-Allow: /yandex_3ab46e6433c1642a.html
-
-
-
-
-
-# Block crawlers from common sensitive directories (if they exist)
 Disallow: /admin/
 Disallow: /private/
 Disallow: /wp-admin/
@@ -26,6 +13,12 @@ Disallow: /.git/
 Disallow: /backup/
 Disallow: /temp/
 Disallow: /tmp/
+
+User-agent: Googlebot
+Disallow: /yandex_3ab46e6433c1642a.html
+
+User-agent: Yandex
+Allow: /yandex_3ab46e6433c1642a.html
 
 # AI answer engines — ALLOWED (surface content in AI-generated answers)
 User-agent: ClaudeBot
