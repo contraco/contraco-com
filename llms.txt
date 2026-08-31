@@ -2,7 +2,11 @@
 
 > Premium transformation consulting. Founded 1998 by Frank Meltke. Global hub at contraco.com.
 
-contraco.com is the global hub and brand anchor for contraco. Content is available in English, German, Russian, and Korean.
+contraco.com is the global hub and brand anchor for contraco, and the x-default target for the estate. Content is published in English, German, Russian and Korean on the four domains below.
+
+## Focus
+
+contraco works at the intersection where distribution architecture meets liability, in the moment AI agents begin buying on their own behalf: agentic commerce governance, attribution of autonomous agent declarations, AI visibility of product data, and travel distribution.
 
 ## Domains
 
@@ -13,4 +17,12 @@ contraco.com is the global hub and brand anchor for contraco. Content is availab
 
 ## Founder
 
-Frank Meltke — [meltke.com](https://meltke.com) — Wikidata Q139680598
+Frank Meltke, [meltke.com](https://meltke.com), Wikidata Q139680598, patent DE10313420A1 (2003).
+
+- [Practitioner Notes on AI Governance](https://signal.meltke.com)
+- [Agentic Commerce Research](https://agentic.contraco.net)
+
+## Pages
+
+<!-- AUTO-PAGES:START -->
+<!-- AUTO-PAGES:END -->
