@@ -25,4 +25,8 @@ Frank Meltke, [meltke.com](https://meltke.com), Wikidata Q139680598, patent DE10
 ## Pages
 
 <!-- AUTO-PAGES:START -->
+- [Brand Guidelines](https://contraco.com/brand.html)
+- [Copyright Information](https://contraco.com/copyright.html)
+- [contraco | Global Transformation Consulting](https://contraco.com/)
+- [Privacy Statement](https://contraco.com/privacy-statement.html)
 <!-- AUTO-PAGES:END -->
